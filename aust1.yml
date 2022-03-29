@@ -7,6 +7,8 @@ stages:
   jobs :
   - job : 'job1'
     displayName : 'Jobs'
-    script: echo My first job
+
+      steps:
+        script: echo My first job
 
 
