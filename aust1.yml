@@ -1,0 +1,6 @@
+trigger:
+- 'try1'
+
+stages:
+- stage: 'Stage1'
+  
