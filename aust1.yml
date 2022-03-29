@@ -6,10 +6,16 @@ stages:
   displayName : 'Test stage'
   jobs :
   - job : 'job1'
-    displayName : 'Jobs'
-     pool:
-      vmImage: ubuntu-latest
+    displayName : 'job1'
+    
+    steps :
+     - task : CmdLine@2
+       inputs:
+        script: 'echo HEllO WORLDWA' 
 
+  - job : 'job2'
+    displayName : 'job2'
+    
     steps :
      - task : CmdLine@2
        inputs:
