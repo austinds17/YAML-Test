@@ -7,7 +7,6 @@ stages:
   jobs :
   displayName : 'Jobs'
   - job : 'job1'
-    displayName : 'Diplayname Job'
-    echo : '1st successful execution'
+     echo : '1st successful execution'
 
 
