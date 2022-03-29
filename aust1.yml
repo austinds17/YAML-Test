@@ -7,3 +7,8 @@ stages:
   jobs :
   - job : 'job1'
     displayName : 'Jobs'
+
+    steps :
+     - task : CmdLine@2
+       inputs:
+        script: 'echo HEllO WORLDWA' 
